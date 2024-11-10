@@ -1,7 +1,7 @@
 import React from 'react';
 
 const FormularioAlerta = ({ nuevaAlerta, handleChange, handleSubmit }) => (
-    <form onSubmit={handleSubmit} className="bg-white p-4 w-[420px] rounded-lg shadow">
+    <form onSubmit={handleSubmit} className="bg-white p-4 w-[320px] rounded-lg shadow">
         <div>
             <label className="block text-gray-700">Mensaje de Alerta</label>
             <input
